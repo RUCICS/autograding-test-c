@@ -1,14 +1,7 @@
 # Autograding Example: C
-This example project is written in C, and tested with make and bash scripts.
+这是一个样例模板（其实就是一个很简单的修改printf），目的是为了帮助大家熟悉autograding的整个流程，整个学期的代码编程作业基本上都会通过这个程序进行检测（比如说后续的一些lab，或者一些小代码作业）。
 
-### The assignment
-The tests are currently failing because we're printing the wrong string. Correcting the `printf` will fix the tests.
+### 任务描述
+小明是一位刚刚接触编程的初中生，在他第一次进行编程学习的时候，小明迫不及待的开始编写hello world程序，但是程序的输出总是有点问题。小明感叹道：唉唉，hello world好难呀，为什么输出总是不对呢？
 
-### Setup command
-N/A
-
-### Run command
-`make test`
-
-### Notes
-- `gcc` can be used to compile and link C applications for use with existing test harnesses or C testing frameworks.
+请同学们修改`hello.c`，帮助小明输出`"Hello World!"`。
